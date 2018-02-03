@@ -1,0 +1,25 @@
+/* Chai Font */
+@font-face {                 
+  font-family: 'Chai';                 
+  src: url(../fonts/Chai.woff) format("woff"),
+  url(../fonts/Chai.ttf) format("truetype"),
+  url(../fonts/Chai.otf) format("opentype");              
+  font-style: normal;                 
+  }  
+
+.chai {
+font-family: Chai;
+}
+
+/* Braille Font */
+@font-face {                 
+  font-family: 'Braille';                 
+  src: url(../fonts/Braille.woff) format("woff"),
+  url(../fonts/Braille.ttf) format("truetype"),
+  url(../fonts/Braille.otf) format("opentype");
+  font-style: normal;                 
+  }  
+
+.braille {
+font-family: Braille;
+}
